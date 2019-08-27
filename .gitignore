@@ -22,11 +22,9 @@ ExportedObj/
 *.booproj
 *.svd
 *.pdb
-*.opendb
 
 # Unity3D generated meta files
 *.pidb.meta
-*.pdb.meta
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
@@ -34,3 +32,14 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# ReSharper is a .NET coding add-in
+_ReSharper*
+_ReSharper.Cashes
+_dotCover*
+*.DotSettings
+
+# JetBrains
+.idea/
+Assets/Plugins*
+/Player Movement/Logs
